@@ -10,12 +10,19 @@ comparisons convert null to a number,treating it as 0.
 Thats why(3) null >=0 is true and (1) null>0 is false.
 */
 
+
+
+
+
 //strict check ===
 
 console.log("2" ===2); //strictly check that both are string or bith or number
+
+
+
+
 /*
 Datatypes-
-
 primitive(call by value)
 string,Number,Boolean,null,undefined,symbol,Bigint
 Number-
@@ -65,6 +72,13 @@ const score ="name"
 variables are determined at runtime.datatype will automatically
 assigned at the time of complilation or code execution.
 
-
-
 */
+
+/*
+memory-
+stack(primitive use stack memory)-
+In stack memory you will get a copy of declared variable.
+heap(Non primitive use heap memory)
+when a memory or object defined or goes in heap you will get a reference of original value.
+
+*/ 
