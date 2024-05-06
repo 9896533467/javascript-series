@@ -73,3 +73,12 @@ console.log(booleanIsLoggedIn) false when value is empty
 true= 1;false=0
 
 */
+
+//string to number
+let str1="welcome"
+let str2=" All"
+let str3=str1+str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1+"2");
